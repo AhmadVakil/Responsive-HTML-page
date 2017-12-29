@@ -1,0 +1,210 @@
+<!DOCTYPE html>	
+<html   xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:og="http://ogp.me/ns#"
+        xmlns:fb="https://www.facebook.com/2008/fbml">
+
+        <head>
+                        <title>Blog</title>
+                        <meta property="og:url"           content="https://1dv525.github.io/av222gx-examination-1/blog.html" />
+                        <meta property="og:type"          content="website" />
+                        <meta property="og:title"         content="Ahmadreza Vakilalroayayi" />
+                        <meta property="og:description"   content="In this page I have answered the part 4 questions of examination 1" />
+                        <meta property="og:image"         content="http://www.goldenrural.org/wp-content/uploads/2016/04/internet.jpg" />
+                        <meta charset="utf-8">
+                        <link rel="stylesheet" type="text/css" href="css\index.css">
+        </head>
+                
+
+        <header>
+                
+                <div id="head">
+                        <div id="header">
+                        </div> 
+                </div>
+
+        </header>
+
+        
+        <body>
+
+                
+                      
+                <nav>
+                        <label for="drop" class="toggle" >Menu</label>
+                        <input type="checkbox" id="drop"/>
+                        
+
+                        <ul class="menu">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="blog.html" id="blog">Blog</a></li>
+                                <li><a href="about.html">About Me</a></li>
+                                <li><a href="contact.html">Contact Me</a></li>
+                                <li><a href="https://www.linkedin.com/in/arezavakilicareer/">My LinkedIn</a></li>
+                                <li><a href="https://github.com/AhmadVakil">My GitHub</a></li>
+                                <li><a href="https://www.facebook.com/ahmad.vakil.94">My Facebook</a></li>
+                                <li><a href="https://ahmadvakilsafir.wixsite.com/about-me-temp">My Portfolio on WIX.com</a></li>
+                                <li><a href="https://ahmadvakilsafir.wixsite.com/about-me-temp/my-gallery">My Gallery on WIX.com</a></li>
+                        </ul>
+                        
+                </nav>
+                   
+                <section>
+                        <p id="quotes"> "The true delight is in the finding out rather than in the knowing!"</p>
+                        <p id="author"><a href="https://www.brainyquote.com/quotes/authors/i/isaac_asimov.html">Isaac Asimov</a></p>
+                </section>
+
+
+
+                <section>
+               
+                        <section class="posts">
+                                        
+                                <article id="blogArticle">
+                                                <h3>What is robots.txt and how have you configure it for your site?</h3>
+                                                
+                                                <section id="answers"> 
+                                                                <p>
+                                                                Well, basically to be able to communicate with web crawlers or web robots in other 
+                                                                websites and to categorizing the website materials for accessing we should include 
+                                                                robots.txt in our websites. We can use this text file to allow a material or to disallow it.
+                                                                A web crawler uses automated algorithms to browse the websites on the world wide web and it 
+                                                                also refers to our robots.txt. </p>
+                                                                <p>As an example, I don't want to allow the Googlebot to view my images, so I have to indicate it in robots.txt like:<br>
+                                                                
+                                                                User-agent: Googlebot<br>     
+                                                                Disallow: /images/</p>
+                                                                
+                                                                Some security uses of robots.txt such as indicating our private materials make it easier for Malicious bots to 
+                                                                know where our secrets are located! Well, we should never use the robots.txt file as our main security while the 
+                                                                vulnerabilities are exactly written in there.<br>
+
+                                                                <p>The robots.txt file should be at the top level directory of our web server.
+                                                                The robot will start looking in our root directory and will add the "robots.txt" in any directory that we have to find it.</p>
+                                                                <p>I have decided to add my robots.txt file in the same directory which includes my index.html.
+                                                                We should use all lower cases for the file name.<br>
+                                                                In the example above I have disallowed Googlebot to view my images, this can be also changed to "*". If we use "*" instead of robot name, it will mean all the robots! And if we use "/" instead of a directory name, the meaning will be all the directories and subdirectories.</p>
+                                                                
+                                                                <p>So for example, I want to disallow all web robots and restrict their access from everything:<br>
+                                                                User-agent: *<br>
+                                                                Disallow: /</p>
+
+                                                                <p>
+                                                                Some tips:<br>
+                                                                We should always remember to do not use "Dissallow" to address multiple directories. Each directory needs one disallow. <br>
+                                                                We can only use a line break in the file only if we want to write another User Agent. Don't use line break between Disallows!
+                                                                </p>
+                                                                
+                                                                
+                                                </section>
+                                                
+                                                <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2F1dv525.github.io%2Fav222gx-examination-1%2Fblog.html&layout=button_count&size=small&mobile_iframe=true&width=69&height=20&appId" width="69" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+                                </article>
+
+                                        <article id="blogArticle">
+                                                <h3>What is humans.txt and how have you configure it for your site?</h3>
+                                                <section id="answers">
+                                                        <p>
+                                                        The humans.txt is about all the information of the site owner(s) or people who contributed and helped in the way of developing. 
+                                                        I have created a humans.txt file for this website and can be found in the main root of this website directory.
+                                                        So, I will explain how it works:</p>
+                                                        We need to create a simple text file and save it in the root folder, then the file should be filled up with below instructions.
+                                                        <br><h5>TEAM part is blongs to people and other information related to them, so below is an example:</h5>
+                                                        /* TEAM */<br>                           
+                                                        Your title: Your title.<br>                    
+                                                        Site: email, link to a contact form, etc.<br>                                              
+                                                        Location: Your location<br>
+                                                        
+
+
+                                                        <h5>THANKS part is about appreciation, so if you inspired from someone please respect and write her/his name down below. :D </h5>                                                        
+                                                        /* THANKS */<br>							
+                                                        Name: Name of the people and/or organization.  
+                                                        
+
+                                                        <h5>SITE part is about our website. So, if you have used any kind of stantards, components and/or software to develop your website, you should indicate it in this section as an example down below. </h5>                                                        
+                                                        /* SITE */ <br>                           
+                                                        Last update: 2017/09/10<br>                         
+                                                        Standards: HTML5, CSS3 <br>                           
+                                                        Components: jQuery <br>                           
+                                                        Software: Visual Studio Code <br>
+                                                </section>
+                                                                                                               
+                                                <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2F1dv525.github.io%2Fav222gx-examination-1%2Fabout.html&layout=button_count&size=small&mobile_iframe=true&width=69&height=20&appId" width="69" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                                
+                                        </article>
+
+                                        <article id="blogArticle">
+                                                <h3>What is humans.txt and how have you configure it for your site?</h3>
+                                                <section id="answers">
+                                                        <p>
+                                                                When we write an important content, we always ask our self "How many people are going to read this article?". Without readers or viewers, our articles, videos, images etc. will be just for our self unless if we share it!
+                                                                So, We need to share our website contents with specified details (Images, titles, URL, etc.) and we need to specify this feature in the code with meta tags.</p>
+                                                         <p> 
+                                                                 I have wrote meta tags in all pages, so if someone wants to share my page in Facebook, they will see a clear set of data that can describe my page details.
+                                                                 It's very important and we should know on which social network are we going to share our contents. meta tags are used to describe the URL, images, types, titles, and many more. Each pages of this website has it's own informations and description which are specified by meta tags.
+                                                         </p>
+
+
+                                                       
+                                                </section>
+                                                <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2F1dv525.github.io%2Fav222gx-examination-1%2Fabout.html&layout=button_count&size=small&mobile_iframe=true&width=69&height=20&appId" width="69" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                        </article>
+
+                                        <article id="blogArticle">
+                                                        <h3>Why is it important to seperate the layout and design (css) from content (html)?</h3>
+                                                        <section id="answers">
+                                                                <p>
+                                                                        By separating CSS from HTML we can design one time but we get many results. A more clear explain, imagine we have a website with 20 pages and each pages contains too much information or even sensitive information, so how can we change the design in all pages?
+                                                                        Changing all HTML files needs too much effort and we should look for each style to change and we might forget to change some parts natuarlly. 
+                                                                </p>
+                                                                                                                               
+                                                        </section>
+                                                        <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2F1dv525.github.io%2Fav222gx-examination-1%2Fabout.html&layout=button_count&size=small&mobile_iframe=true&width=69&height=20&appId" width="69" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                        </article>
+                                        
+                        </section>
+                        
+                        <section class="blogAside">
+
+                                <aside >
+                                                <ul class="menu">
+                                                                <li><a href="index.html">Home</a></li>
+                                                                <li><a href="blog.html" id="homepage">Blog</a></li>
+                                                                <li><a href="about.html">About Me</a></li>
+                                                                <li><a href="contact.html">Contact Me</a></li>
+                                                                <li><a href="https://www.linkedin.com/in/arezavakilicareer/">My LinkedIn</a></li>
+                                                                <li><a href="https://github.com/AhmadVakil">My GitHub</a></li>
+                                                                <li><a href="https://www.facebook.com/ahmad.vakil.94">My Facebook</a></li>
+                                                                <li><a href="https://ahmadvakilsafir.wixsite.com/about-me-temp">My Portfolio on WIX.com</a></li>
+                                                                <li><a href="https://ahmadvakilsafir.wixsite.com/about-me-temp/my-gallery">My Gallery on WIX.com</a></li>
+                                                </ul>
+                                </aside>
+
+                        </section>   
+                </section>       
+                        
+                        <section id="blogFooter">
+                                <footer>
+
+                                        <p>
+                                                If you have any question, please use contact page or send me an email to: av222gx@student.lnu.se
+                                                I will add the comment section as soon as possible.<br>
+                                                Thank you again for your visit.
+                                        </p>
+
+                                </footer>
+                        </section>        
+                                
+       
+                        
+
+
+                        
+
+                               
+
+        </body>
+    
+    
+</html>

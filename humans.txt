@@ -1,0 +1,16 @@
+/* TEAM */                           
+Your title: Ahmadreza Vakilalroayayi.                    
+Site: av222gx@student.lnu.se                                               
+Location: Vaxjo, Sweden.
+
+							
+/* THANKS */							
+Name: Linnaeus University for these awesome lecturers and courses. 
+
+
+/* SITE */                            
+Last update: 2017/09/10                         
+Standards: HTML5, CSS3                            
+Components: jQuery                            
+Software: Visual Studio Code
+   
