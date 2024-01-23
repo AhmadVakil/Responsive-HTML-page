@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T12:01:42.922Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="uD8iP5Nmyodb-rWo_fiF" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T12:45:08.143Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="KoonN4yrGwCWuHsCzUX4" version="22.1.21" type="github">
   <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
     <mxGraphModel dx="4279" dy="2654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -58,7 +58,7 @@
         <mxCell id="wri180PLoIIAqy83a-aI-9" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Create Object&lt;/font&gt; Java&amp;nbsp;&lt;span style=&quot;font-weight: bold; color: rgb(95, 99, 104); font-family: arial, sans-serif; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Constructors&lt;br&gt;From compiled .proto&lt;br&gt;file&lt;br&gt;&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="-25.5" y="1105.02" width="205" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="wri180PLoIIAqy83a-aI-13" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;DATABASE&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Log the incoming and outgoing data,&lt;br&gt;gather information&lt;br&gt;about sent emails,&lt;br&gt;crashes,&lt;br&gt;analytics&lt;br&gt;statistices&lt;/font&gt;&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;gradientColor=#FFE6CC;" parent="1" vertex="1">
+        <mxCell id="wri180PLoIIAqy83a-aI-13" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;DATABASE&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Log the incoming and outgoing data,&lt;br&gt;gather information&lt;br&gt;about sent emails,&lt;br&gt;crashes,&lt;br&gt;analytics,&lt;br&gt;statistics&lt;/font&gt;&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;gradientColor=#FFE6CC;" parent="1" vertex="1">
           <mxGeometry x="-440.99" y="1178.02" width="270" height="301" as="geometry" />
         </mxCell>
         <mxCell id="wri180PLoIIAqy83a-aI-18" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Configured&lt;br&gt;Stunnel&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
